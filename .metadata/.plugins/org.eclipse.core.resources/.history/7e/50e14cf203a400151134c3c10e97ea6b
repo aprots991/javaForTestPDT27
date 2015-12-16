@@ -1,0 +1,45 @@
+package com.example.tests;
+
+import org.testng.annotations.Test;
+
+public class GroupCreationTests extends TestBase {
+  
+  @Test
+  public void testNonEmptyGroupCreation() throws Exception {
+	  selenium.open("/addressbookv4.1.4/");
+		selenium.click("link=add new");
+		selenium.waitForPageToLoad("30000");
+		selenium.type("name=firstname", "First name");
+		selenium.type("name=lastname", "Last name");
+		selenium.type("name=address", "Moscow, Leningradsky st., 81");
+		selenium.type("name=home", "495 555 5555");
+		selenium.type("name=mobile", "901 555 5555");
+		selenium.type("name=work", "499 999 9999");
+		selenium.type("name=email", "local@localhost.ru");
+		selenium.type("name=email2", "ex@ex.ru");
+		selenium.select("name=bday", "label=15");
+		selenium.select("name=bmonth", "label=September");
+		selenium.type("name=byear", "1980");
+		selenium.select("name=new_group", "label=group 1");
+		selenium.type("name=address2", "Moscow, Tretiakovsky st., 1");
+		selenium.type("name=phone2", "11");
+		selenium.click("name=submit");
+		selenium.waitForPageToLoad("30000");
+		selenium.click("link=home page");
+		selenium.waitForPageToLoad("30000");
+  }
+
+  @Test
+  public void testEmptyGroupCreation() throws Exception {
+	  openMainPage();
+	    gotoGroupsPage();
+	    initGroupCreation();
+	    GroupData group = new GroupData();
+	    group.name = "group name 1";
+	    group.header = "header 1";
+	    group.footer = "footer 1";
+		fillGroupForm(group);
+	    submitGroupCreation();
+	    returnToGroupsPage();
+  }
+}

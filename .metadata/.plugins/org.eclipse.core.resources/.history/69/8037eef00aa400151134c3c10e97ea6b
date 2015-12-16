@@ -1,0 +1,32 @@
+package com.example.tests;
+
+import org.testng.annotations.Test;
+
+public class ContactCreationTests extends TestBase {
+
+  @Test
+  public void testNonEmptyContactCreation() throws Exception {
+	  openMainPage();
+	  addNewPage();
+	  fillContactForm("First name", "Last name", "Moscow, Leningradsky st., 81", "495 555 5555");
+	  submitContactCreation();
+	  gotoHomePage();
+  }
+
+  @Test
+  public void testEmptyAndNoEmptyGroupCreation() throws Exception {
+	openMainPage();
+    gotoGroupsPage();
+    initGroupCreation();
+    fillGroupForm(new GroupData("", "", ""));
+    submitGroupCreation();
+    returnToGroupsPage();
+    initGroupCreation();
+    GroupData group = new GroupData();
+    group.name = "cname 1";
+    group.header = "cheader 1";
+    group.footer = "cfooter 1";
+  }
+  
+}
+
