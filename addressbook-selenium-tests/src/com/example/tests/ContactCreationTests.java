@@ -27,14 +27,5 @@ public class ContactCreationTests extends TestBase {
 	submitContactCreation();
 	gotoHomePage();
   }
-  @Test
-  public void testEmptyContactCreation() throws Exception {
-	openMainPage();
-	addNewPage();
-	fillContactForm(new ContactData("", "", "","", "", "","", "", "","", "", "", "", ""));
-	submitContactCreation();
-	gotoHomePage();
-  }
- 
 }
 
