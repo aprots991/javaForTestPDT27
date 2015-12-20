@@ -6,8 +6,8 @@ public class ContactCreationTests extends TestBase {
 
   @Test
   public void testNonEmptyContactCreation() throws Exception {
-	openMainPage();
-	addNewPage();
+	app.openMainPage();
+	app.addNewPage();
 	ContactData contact = new ContactData();
 	contact.fname = "First name";
 	contact.lname = "Last name";
@@ -23,9 +23,9 @@ public class ContactCreationTests extends TestBase {
 	contact.phone2 = "112";
 	contact.bday = "15";
 	contact.bmonth = "September";
-	fillContactForm(contact);
-	submitContactCreation();
-	gotoHomePage();
+	app.fillContactForm(contact);
+	app.submitContactCreation();
+	app.gotoHomePage();
   }
 }
 

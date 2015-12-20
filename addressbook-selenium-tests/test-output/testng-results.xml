@@ -1,60 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="4" passed="3">
+<testng-results skipped="0" failed="3" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35045" started-at="2015-12-16T17:08:28Z" finished-at="2015-12-16T17:09:03Z">
+  <suite name="Default suite" duration-ms="14705" started-at="2015-12-20T17:51:42Z" finished-at="2015-12-20T17:51:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35045" started-at="2015-12-16T17:08:28Z" finished-at="2015-12-16T17:09:03Z">
+    <test name="Default test" duration-ms="14705" started-at="2015-12-20T17:51:42Z" finished-at="2015-12-20T17:51:57Z">
       <class name="com.example.tests.TestBase">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example.tests.TestBase@282ba1e]" name="setUp" is-config="true" duration-ms="5810" started-at="2015-12-16T20:08:28Z" finished-at="2015-12-16T20:08:33Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example.tests.TestBase@13b6d03]" name="setUp" is-config="true" duration-ms="13042" started-at="2015-12-20T20:51:42Z" finished-at="2015-12-20T20:51:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.tests.TestBase@282ba1e]" name="tearDown" is-config="true" duration-ms="884" started-at="2015-12-16T20:09:02Z" finished-at="2015-12-16T20:09:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.tests.TestBase@13b6d03]" name="tearDown" is-config="true" duration-ms="1582" started-at="2015-12-20T20:51:55Z" finished-at="2015-12-20T20:51:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.example.tests.TestBase -->
       <class name="com.example.tests.ContactCreationTests">
-        <test-method status="FAIL" signature="testEmptyContactCreation()[pri:0, instance:com.example.tests.ContactCreationTests@483bf400]" name="testEmptyContactCreation" duration-ms="23560" started-at="2015-12-16T20:08:36Z" finished-at="2015-12-16T20:09:00Z">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[Element not found in the cache - perhaps the page has changed since it was looked up
-Command duration or timeout: 22.64 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
-System info: host: 'Molodec', ip: '192.168.241.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c4cf69ef-85fb-4ea7-895b-f558cb935e32
-*** Element info: {Using=xpath, value=.//option[normalize-space(.) = ""]}]]>
-            </message>
+        <test-method status="FAIL" signature="testNonEmptyContactCreation()[pri:0, instance:com.example.tests.ContactCreationTests@21a06946]" name="testNonEmptyContactCreation" duration-ms="3" started-at="2015-12-20T20:51:55Z" finished-at="2015-12-20T20:51:55Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
-Command duration or timeout: 22.64 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
-System info: host: 'Molodec', ip: '192.168.241.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: c4cf69ef-85fb-4ea7-895b-f558cb935e32
-*** Element info: {Using=xpath, value=.//option[normalize-space(.) = ""]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
-	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:213)
-	at org.openqa.selenium.remote.RemoteWebElement.findElementsByXPath(RemoteWebElement.java:298)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
-	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:189)
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:115)
-	at com.example.tests.TestBase.fillContactForm(TestBase.java:94)
-	at com.example.tests.ContactCreationTests.testEmptyContactCreation(ContactCreationTests.java:34)
+              <![CDATA[java.lang.NullPointerException
+	at com.example.tests.ContactCreationTests.testNonEmptyContactCreation(ContactCreationTests.java:9)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -79,32 +46,81 @@ Session ID: c4cf69ef-85fb-4ea7-895b-f558cb935e32
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
-System info: host: 'Molodec', ip: '192.168.241.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: driver.version: unknown
-	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9351)
-	at <anonymous class>.Utils.getElementAt(file:///C:/Users/Molodoy/AppData/Local/Temp/anonymous8289171944482380699webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:8978)
-	at <anonymous class>.FirefoxDriver.prototype.findElementsInternal_(file:///C:/Users/Molodoy/AppData/Local/Temp/anonymous8289171944482380699webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10677)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Molodoy/AppData/Local/Temp/anonymous8289171944482380699webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEmptyContactCreation -->
-        <test-method status="PASS" signature="testNonEmptyContactCreation()[pri:0, instance:com.example.tests.ContactCreationTests@483bf400]" name="testNonEmptyContactCreation" duration-ms="2003" started-at="2015-12-16T20:09:00Z" finished-at="2015-12-16T20:09:02Z">
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNonEmptyContactCreation -->
       </class> <!-- com.example.tests.ContactCreationTests -->
       <class name="com.example.tests.GroupCreationTests">
-        <test-method status="PASS" signature="testEmptyGroupCreation()[pri:0, instance:com.example.tests.GroupCreationTests@3ecf72fd]" name="testEmptyGroupCreation" duration-ms="1424" started-at="2015-12-16T20:08:33Z" finished-at="2015-12-16T20:08:35Z">
+        <test-method status="FAIL" signature="testEmptyGroupCreation()[pri:0, instance:com.example.tests.GroupCreationTests@483bf400]" name="testEmptyGroupCreation" duration-ms="13" started-at="2015-12-20T20:51:55Z" finished-at="2015-12-20T20:51:55Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.example.tests.GroupCreationTests.testEmptyGroupCreation(GroupCreationTests.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmptyGroupCreation -->
-        <test-method status="PASS" signature="testNonEmptyGroupCreation()[pri:0, instance:com.example.tests.GroupCreationTests@3ecf72fd]" name="testNonEmptyGroupCreation" duration-ms="1324" started-at="2015-12-16T20:08:35Z" finished-at="2015-12-16T20:08:36Z">
+        <test-method status="FAIL" signature="testNonEmptyGroupCreation()[pri:0, instance:com.example.tests.GroupCreationTests@483bf400]" name="testNonEmptyGroupCreation" duration-ms="2" started-at="2015-12-20T20:51:55Z" finished-at="2015-12-20T20:51:55Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.example.tests.GroupCreationTests.testNonEmptyGroupCreation(GroupCreationTests.java:9)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNonEmptyGroupCreation -->
