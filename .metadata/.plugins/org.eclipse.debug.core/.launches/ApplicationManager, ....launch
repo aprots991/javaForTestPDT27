@@ -5,11 +5,15 @@
 <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
 <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
 <listEntry value="com.example.tests.ContactData"/>
+<listEntry value="com.example.fw.ContactHelper"/>
 <listEntry value="com.example.tests.TestBase"/>
 <listEntry value="com.example.tests.GroupData"/>
+<listEntry value="com.example.fw.HelperBase"/>
 <listEntry value="com.example.tests.GroupCreationTests"/>
 <listEntry value="com.example.tests.ContactCreationTests"/>
+<listEntry value="com.example.fw.NavigationHelper"/>
 <listEntry value="com.example.fw.ApplicationManager"/>
+<listEntry value="com.example.fw.GroupHelper"/>
 </listAttribute>
 <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
 <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
