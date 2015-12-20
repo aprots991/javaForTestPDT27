@@ -312,3 +312,188 @@ java -ea -classpath C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbo
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 56627 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse-1073322548\testng-customsuite.xml
 java -ea -classpath C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin:D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 56627 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse-1073322548\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-12-21 01:54:24.364
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56755 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse--78044852\testng-customsuite.xml
+java -ea -classpath C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin:D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 56755 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse--78044852\testng-customsuite.xml
+
+!ENTRY org.eclipse.jdt.debug 4 125 2015-12-21 01:59:25.436
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1135)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:789)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1205)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:372)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2015-12-21 01:59:25.437
+!MESSAGE Invalid stack frame
+
+!ENTRY org.eclipse.jdt.debug 4 125 2015-12-21 01:59:40.882
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1135)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:789)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1205)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:372)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 130 2015-12-21 01:59:40.883
+!MESSAGE Invalid stack frame
+
+!ENTRY org.testng.eclipse 1 0 2015-12-21 02:03:29.225
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in addressbook-selenium-tests]]
+  [Working copy] TestBase.java
+    package com.example.tests
+    import org.testng.annotations.AfterTest
+    import org.testng.annotations.BeforeTest
+    import com.example.fw.ApplicationManager
+    class TestBase
+      ApplicationManager app
+      void setUp()
+      void tearDown()
+  [Working copy] GroupCreationTests.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class GroupCreationTests
+      void testNonEmptyGroupCreation()
+      void testEmptyGroupCreation()
+  [Working copy] ContactCreationTests.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class ContactCreationTests
+      void testNonEmptyContactCreation()
+  [Working copy] GroupData.java
+    package com.example.tests
+    class GroupData
+      String name
+      String header
+      String footer
+      GroupData()
+      GroupData(String, String, String)
+  [Working copy] ContactData.java
+    package com.example.tests
+    class ContactData
+      String fname
+      String lname
+      String address
+      String hphone
+      String mphone
+      String wphone
+      String email
+      String email2
+      String byear
+      String sgroup
+      String address2
+      String phone2
+      String bday
+      String bmonth
+      ContactData()
+      ContactData(String, String, String, String, String, String, String, String, String, String, String, String, String, String)
+
+!ENTRY org.testng.eclipse 1 0 2015-12-21 02:03:29.346
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56851 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse-1526358585\testng-customsuite.xml
+java -ea -classpath C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin:D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 56851 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse-1526358585\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-12-21 02:05:31.978
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in addressbook-selenium-tests]]
+  [Working copy] TestBase.java
+    package com.example.tests
+    import org.testng.annotations.AfterTest
+    import org.testng.annotations.BeforeTest
+    import com.example.fw.ApplicationManager
+    class TestBase
+      ApplicationManager app
+      void setUp()
+      void tearDown()
+  [Working copy] GroupCreationTests.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class GroupCreationTests
+      void testNonEmptyGroupCreation()
+      void testEmptyGroupCreation()
+  [Working copy] ContactCreationTests.java
+    package com.example.tests
+    import org.testng.annotations.Test
+    class ContactCreationTests
+      void testNonEmptyContactCreation()
+  [Working copy] GroupData.java
+    package com.example.tests
+    class GroupData
+      String name
+      String header
+      String footer
+      GroupData()
+      GroupData(String, String, String)
+  [Working copy] ContactData.java
+    package com.example.tests
+    class ContactData
+      String fname
+      String lname
+      String address
+      String hphone
+      String mphone
+      String wphone
+      String email
+      String email2
+      String byear
+      String sgroup
+      String address2
+      String phone2
+      String bday
+      String bmonth
+      ContactData()
+      ContactData(String, String, String, String, String, String, String, String, String, String, String, String, String, String)
+
+!ENTRY org.testng.eclipse 1 0 2015-12-21 02:05:32.061
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56879 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse--630022727\testng-customsuite.xml
+java -ea -classpath C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin:D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 56879 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse--630022727\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-12-21 02:07:39.433
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactCreationTests.java [in com.example.tests [in src [in addressbook-selenium-tests]]]
+  package com.example.tests
+  import org.testng.annotations.Test
+  class ContactCreationTests
+    void testNonEmptyContactCreation()
+
+!ENTRY org.testng.eclipse 1 0 2015-12-21 02:07:39.518
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56937 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse--482294473\testng-customsuite.xml
+java -ea -classpath C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin:D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 56937 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse--482294473\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-12-21 02:08:07.545
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupCreationTests.java [in com.example.tests [in src [in addressbook-selenium-tests]]]
+  package com.example.tests
+  import org.testng.annotations.Test
+  class GroupCreationTests
+    void testNonEmptyGroupCreation()
+    void testEmptyGroupCreation()
+
+!ENTRY org.testng.eclipse 1 0 2015-12-21 02:08:07.699
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57038 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse-1692183717\testng-customsuite.xml
+java -ea -classpath C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin:D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 57038 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse-1692183717\testng-customsuite.xml
