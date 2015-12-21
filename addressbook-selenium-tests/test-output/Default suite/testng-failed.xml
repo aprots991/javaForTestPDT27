@@ -6,6 +6,7 @@
       <class name="com.example.tests.ContactCreationTests">
         <methods>
           <include name="testEmptyContactCreation"/>
+          <include name="testNonEmptyContactCreation"/>
         </methods>
       </class> <!-- com.example.tests.ContactCreationTests -->
       <class name="com.example.tests.TestBase">
