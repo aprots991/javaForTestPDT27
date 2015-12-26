@@ -1,7 +1,7 @@
 package com.example.tests;
 
 public class ContactData {
-	
+
 	public String fname;
 	public String lname;
 	public String address;
@@ -17,12 +17,12 @@ public class ContactData {
 	public String bday;
 	public String bmonth;
 
-	
 	public ContactData() {
 	}
-	
+
 	public ContactData(String fname, String lname, String address, String hphone, String mphone, String wphone,
-			String email, String email2, String byear, String sgroup, String address2, String phone2, String bday, String bmonth) {
+			String email, String email2, String byear, String sgroup, String address2, String phone2, String bday,
+			String bmonth) {
 		this.fname = fname;
 		this.lname = lname;
 		this.address = address;

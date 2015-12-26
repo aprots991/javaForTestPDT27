@@ -3,7 +3,7 @@ package com.example.tests;
 import org.testng.annotations.Test;
 
 public class GroupModificationTests extends TestBase {
-	
+
 	@Test
 	public void modifySomeGroup() {
 		app.getNavigationHelper().openMainPage();
@@ -13,7 +13,7 @@ public class GroupModificationTests extends TestBase {
 		group.name = "new name";
 		app.getGroupHelper().fillGroupForm(group);
 		app.getGroupHelper().submitGroupModification();
-	    app.getGroupHelper().returnToGroupsPage();
+		app.getGroupHelper().returnToGroupsPage();
 	}
 
 }
