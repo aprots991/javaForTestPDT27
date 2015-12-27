@@ -39,4 +39,16 @@ public class ContactHelper extends HelperBase {
 		click(By.linkText("home page"));
 	}
 
+	public void deleteContact() {
+		click(By.xpath("//input[@value='Delete']"));		
+	}
+
+	public void initContactModification(int index) {
+		click(By.xpath("//tr[@name='entry'][" + index + "]//img[@title='Edit']"));
+	}
+
+	public void submitContactModification() {
+		click(By.xpath("//input[@value='Update']"));		
+	}
+
 }

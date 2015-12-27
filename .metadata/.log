@@ -14364,3 +14364,95 @@ java -ea -classpath C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbo
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 51235 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse-1481791326\testng-customsuite.xml
 java -ea -classpath C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin:D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 51235 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse-1481791326\testng-customsuite.xml
+!SESSION 2015-12-26 15:42:14.770 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-26 15:42:43.103
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Molodoy'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-12-27 09:36:54.290 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-27 09:37:36.018
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Molodoy'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2015-12-27 11:48:36.897
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 65090 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse--185585566\testng-customsuite.xml
+java -ea -classpath C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin:D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 65090 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse--185585566\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-12-27 13:11:53.263
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50235 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse-1492244138\testng-customsuite.xml
+java -ea -classpath C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin:D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 50235 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse-1492244138\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-12-27 13:33:37.909
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50367 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse--1303766863\testng-customsuite.xml
+java -ea -classpath C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin:D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 50367 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse--1303766863\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-12-27 13:53:59.090
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50468 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse--1405364643\testng-customsuite.xml
+java -ea -classpath C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin:D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 50468 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse--1405364643\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-12-27 13:55:17.103
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50509 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse-378639386\testng-customsuite.xml
+java -ea -classpath C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin:D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 50509 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse-378639386\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-12-27 14:16:35.297
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50614 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse--991440533\testng-customsuite.xml
+java -ea -classpath C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin:D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 50614 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse--991440533\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-12-27 14:46:27.129
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50748 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse-528275462\testng-customsuite.xml
+java -ea -classpath C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin:D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 50748 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse-528275462\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-12-27 14:54:37.612
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50821 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse-780575507\testng-customsuite.xml
+java -ea -classpath C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\bin:D:\Work\JavForTest\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 50821 -d C:\Users\Molodoy\Documents\GitHub\javaForTestPDT27\addressbook-selenium-tests\test-output C:\Users\Molodoy\AppData\Local\Temp\testng-eclipse-780575507\testng-customsuite.xml
