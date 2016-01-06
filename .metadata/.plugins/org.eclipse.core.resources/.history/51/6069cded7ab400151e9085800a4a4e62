@@ -1,0 +1,22 @@
+package com.example.tests;
+
+import java.util.List;
+
+import org.testng.annotations.Test;
+
+public class ContactRemovalTests extends TestBase {
+	
+	@Test
+	public void deleteSomeContact() {
+		app.getNavigationHelper().openMainPage();
+		
+		// save old state 
+		List<ContactData> oldList = app.getContactHelper().getContacts();
+		
+		//actions
+		app.getContactHelper().initContactModification(1);
+		app.getContactHelper().deleteContact();
+		app.getContactHelper().returnToHomePage();
+	}
+
+}

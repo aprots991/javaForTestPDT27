@@ -3,7 +3,9 @@
 	<item value="JavaSE-1.7" key="org.eclipse.jdt.ui.last.selected.execution.enviroment"/>
 	<item value="true" key="Replace"/>
 	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
+	<item value="true" key="Annotations"/>
 	<item value="3" key="TypeHierarchyViewPart.orientation"/>
+	<item value="true" key="Comments"/>
 	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
 	<item value="D:\Work\JavForTest" key="org.eclipse.jdt.ui.lastextjar"/>
 	<item value="false" key="InstanceOf"/>
@@ -38,6 +40,13 @@
 		<item value="72" key="DIALOG_X_ORIGIN"/>
 		<item value="50" key="DIALOG_Y_ORIGIN"/>
 	</section>
+	<section name="DialogBounds_OverrideMethodDialog">
+		<item value="527" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="466" key="DIALOG_HEIGHT"/>
+		<item value="397" key="DIALOG_X_ORIGIN"/>
+		<item value="82" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="DialogBounds_GenerateToStringDialog">
 		<item value="516" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
@@ -61,6 +70,9 @@
 		<item value="false" key="SkipNull"/>
 		<item value="10" key="LimitValue"/>
 		<item value="false" key="FinalModifier"/>
+	</section>
+	<section name="OverrideMethodDialog">
+		<item value="true" key="showtypes"/>
 	</section>
 	<section name="RenameInformationPopup">
 	</section>
