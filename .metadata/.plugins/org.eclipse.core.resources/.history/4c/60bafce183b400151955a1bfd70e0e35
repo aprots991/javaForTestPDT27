@@ -21,8 +21,6 @@ public class ContactModificationTests extends TestBase {
 		ContactData contact = new ContactData();
 		contact.fname = "New name";
 		contact.lname = "New last name";
-		contact.wphone = "4957548484";
-		contact.email = "ya@ya.ru";
 		app.getContactHelper().fillContactForm(contact);
 		app.getContactHelper().submitContactModification();
 		app.getContactHelper().returnToHomePage();

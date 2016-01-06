@@ -20,9 +20,6 @@ public class ContactModificationTests extends TestBase {
 		app.getContactHelper().initContactModification(0);
 		ContactData contact = new ContactData();
 		contact.fname = "New name";
-		contact.lname = "New last name";
-		contact.wphone = "4957548484";
-		contact.email = "ya@ya.ru";
 		app.getContactHelper().fillContactForm(contact);
 		app.getContactHelper().submitContactModification();
 		app.getContactHelper().returnToHomePage();
@@ -35,7 +32,7 @@ public class ContactModificationTests extends TestBase {
 		oldList.remove(0);
 		oldList.add(contact);
 		Collections.sort(oldList);
-//		Collections.sort(newList);
+		Collections.sort(newList);
 		assertEquals(newList, oldList);		
 	}
 

@@ -49,10 +49,10 @@ public class ContactData implements Comparable<ContactData> {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-//		result = prime * result + ((email == null) ? 0 : email.hashCode());
+		result = prime * result + ((email == null) ? 0 : email.hashCode());
 		result = prime * result + ((fname == null) ? 0 : fname.hashCode());
-//		result = prime * result + ((hphone == null) ? 0 : hphone.hashCode());
-//		result = prime * result + ((lname == null) ? 0 : lname.hashCode());
+		result = prime * result + ((hphone == null) ? 0 : hphone.hashCode());
+		result = prime * result + ((lname == null) ? 0 : lname.hashCode());
 		return result;
 	}
 
@@ -79,8 +79,7 @@ public class ContactData implements Comparable<ContactData> {
 			if (other.hphone != null)
 				return false;
 		} else if (!hphone.equals(other.hphone))
-			return false; 
-			viewed without spaces*/
+			return false; */
 		if (lname == null) {
 			if (other.lname != null)
 				return false;
